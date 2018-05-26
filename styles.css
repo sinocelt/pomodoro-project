@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+#main-container {
+  border: 3px solid green;
+  display: flex;
+  justify-content: center;
+}
+
+.leftTopBox {
+  display: flex;
+  width: 50%;
+  border: 2px solid red;
+  width: 50%;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plusMinusBlock {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.white {
+  border: 1px solid white;
+  color: white;
+}
+
+.plus {
+}
+
+#countDownTimerContainer {
+  display: flex;
+  /*justify-content: flex-end;*/
+  /*justify-content: center;*/
+  justify-content: space-around;
+  border: 2px solid purple;
+  width: 80%;
+  flex-direction: column;
+}
+
+#secondsBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#minutesBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#countDownTimer {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+}
