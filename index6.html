@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodoro App</title>
+    <link rel="stylesheet" href="styles4.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.12/howler.core.min.js"></script>
+  </head>
+  <body>
+    <noscript>
+      Need Javascript to be running for this app to work
+    </noscript>
+    <h1 style="display: flex; justify-content: center;">Pomodoro Timer</h1>
+    <h3 style="display: flex; justify-content: center;">By <a href="https://github.com/sinocelt" target="_blank"> Justin Barry</a></h3>
+    <div id="main-container">
+      <div class="leftTopBox">
+        <div>Break Length</div>
+        <div class="plusMinusBlock">
+          <div id="breakTimeMinus" class="white">-</div>
+          <div id="breakTimeLength">8</div>
+          <div class="white" id="breakTimePlus">+</div>
+        </div>
+        <div id="countDownTimerContainer">
+          <div>Timer</div>
+          <div id="countDownTimer">
+            <div>
+              <div>Minutes left</div>
+              <div id="minutesBlock">
+                <div id="minutesMinus" class="white">-</div>
+                <div id="timerMinutes">2</div>
+                <div id="minutesPlus" class="white">+</div>
+              </div>
+            </div>
+            <div>
+              <div>Seconds left</div>
+              <div id="secondsBlock">
+                <div id="secondsMinus" class="white">-</div>
+                <div id="timerSeconds">10</div>
+                <div id="secondsPlus" class="white">+</div>
+              </div>
+            </div>
+            <!-- <div></div> -->
+          </div>
+          <div class="tomatoImageContainer">
+            <div class="tempContainer">
+              <div class="tomatoImageBlock">
+              <!-- <img src="tomato.svg" class="tomatoImage"> -->
+                <img src="tomato.svg" class="tomatoImage">
+                <div class="timerBlock">
+                  <!-- <div class="whiteTimer">Timer</div> -->
+                  <div class="theBackground"><span id="tomatoMinutes">2</span>:<span id="tomatoSeconds">10</span></div>
+                </div>
+              </div>
+            </div>
+              <!-- <div>Timer</div> -->
+            </div>
+            <!-- <div></div> -->
+          </div>
+          <div class="buttonBlock">
+            <button id="startButton">Start!!!</button>
+            <button id="pauseButton">Pause!!!</button>
+            <button id="clearButton">Clear!!!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script12.js"></script>
+  </body>
+</html>
